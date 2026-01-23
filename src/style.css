@@ -14,8 +14,6 @@ body {
   min-height: 100vh;
   width: 100%;
   max-width: 100vw;
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
 #app {
