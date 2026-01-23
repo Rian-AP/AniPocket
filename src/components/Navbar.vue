@@ -280,6 +280,16 @@ onUnmounted(() => {
   object-fit: contain;
 }
 
+.logo-text {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    display: none;
+  }
+}
+
 .search-box {
   display: flex;
   align-items: center;
