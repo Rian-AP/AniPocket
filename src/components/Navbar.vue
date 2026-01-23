@@ -286,7 +286,7 @@ onUnmounted(() => {
 
 @media (max-width: 768px) {
   .logo-text {
-    display: none;
+    display: none !important;
   }
 }
 
