@@ -43,7 +43,7 @@ export default defineConfig({
         globIgnores: ['**/node_modules/**/*'],
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/api\.anilibria\.tv\/.*/i,
+            urlPattern: /^https:\/\/api\.yani\.tv\/.*/i,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'api-cache',
@@ -75,7 +75,7 @@ export default defineConfig({
     })
   ],
   server: {
-    port: 3001,
+    port: 5000,
     host: true,
     open: true
   }

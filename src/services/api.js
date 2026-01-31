@@ -1,4 +1,4 @@
-const API_BASE = 'https://yummy-proxy.vercel.app/api'
+const API_BASE = 'https://api.yani.tv'
 
 export const api = {
   // Получить список аниме с фильтрами
